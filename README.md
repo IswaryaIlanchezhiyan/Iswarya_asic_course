@@ -30,6 +30,7 @@ Below is the screenshot showing successful installation:
 
 Below is the screenshot showing successful launch:
 
-file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-21-57.png
+![Screenshot from 2023-07-31 10-21-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/8a6b68b0-d58c-403c-92a3-2a820a273b24)
+
 
 </details>
