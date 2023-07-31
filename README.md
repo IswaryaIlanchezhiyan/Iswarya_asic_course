@@ -23,7 +23,9 @@ $ sudo make install
 
 Below is the screenshot showing successful installation:
 
-![Alt text](file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-15-12.png)
+
+![Screenshot from 2023-07-31 10-15-12](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/67cfade5-3e17-4374-89ff-93c64bce279f)
+
 
 
 Below is the screenshot showing successful launch:
