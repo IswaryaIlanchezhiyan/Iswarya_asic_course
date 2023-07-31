@@ -37,14 +37,14 @@ Below is the screenshot showing successful launch:
 
 </details>
 <details>
-    <summary>
+<summary>
         iverilog
-    </summary>
-    I installed iverilog using the following commands:
+</summary>
+I installed iverilog using the following commands:
 
     ```
 
-    sudo apt-get install iverilog
+    $ sudo apt-get install iverilog
 
     ```
 
