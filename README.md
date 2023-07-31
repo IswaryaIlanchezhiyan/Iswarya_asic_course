@@ -25,6 +25,7 @@ Below is the screenshot showing successful installation:
 
 ![Alt text](file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-15-12.png)
 
+
 Below is the screenshot showing successful launch:
 
 file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-21-57.png
