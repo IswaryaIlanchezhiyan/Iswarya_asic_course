@@ -40,7 +40,7 @@ Below is the screenshot showing successful launch:
 <summary>
         iverilog
 </summary>
-I installed iverilog using the following commands:
+I installed iverilog using the following command:
 
 ```
 
@@ -61,4 +61,29 @@ Below is the screenshot showing successful launch:
 
 
     
+</details>
+<details>
+    <summary>
+        gtkwave
+    </summary>
+    I installed gtkwave using the following command:
+
+```
+
+sudo apt update
+sudo apt install gtkwave
+
+```
+
+Below is the screenshot showing successful installation:
+
+
+![Screenshot from 2023-07-31 21-40-40](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/10ebb750-f2e9-4682-b8b8-6d19de17dfae)
+
+Below is the screenshot showing successful launch:
+
+![Screenshot from 2023-07-31 21-41-31](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/52180ab8-a498-4974-8ab7-03ef29a9c3b4)
+
+
+
 </details>
