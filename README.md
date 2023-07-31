@@ -6,6 +6,7 @@
   </summary>
   I installed Yosys using the following commands:
 ```
+    
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys-master 
 $ sudo apt install make (If make is not installed please install it) 
@@ -16,6 +17,7 @@ $ sudo apt-get install build-essential clang bison flex \
 $ make config-gcc
 $ make 
 $ sudo make install
+
 ```
 Below is the screenshot showing successful installation:
 
