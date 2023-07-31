@@ -5,6 +5,7 @@
     Yosys
   </summary>
   I installed Yosys using the following commands:
+    
 ```
     
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -19,6 +20,7 @@ $ make
 $ sudo make install
 
 ```
+
 Below is the screenshot showing successful installation:
 
 file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-15-12.png
