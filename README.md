@@ -23,7 +23,7 @@ $ sudo make install
 
 Below is the screenshot showing successful installation:
 
-file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-15-12.png
+![Alt text](file:///home/iswarya/Pictures/Screenshots/Screenshot%20from%202023-07-31%2010-15-12.png)
 
 Below is the screenshot showing successful launch:
 
