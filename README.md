@@ -205,6 +205,7 @@ Invoke and Synthesis using following commands:
 ```
 $ yosys
 ```
+
 ![Screenshot from 2023-08-14 01-28-49](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1193e665-0f8d-4c5c-a134-c49a29104b11)
 
 </details>
