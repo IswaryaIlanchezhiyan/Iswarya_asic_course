@@ -102,6 +102,6 @@ iverilog is the simulator used for this course.
 **How Simulator works**
 
 +Simulator looks for the change in the values of input.
-+Upon change to the input,output is evaluated.
+*Upon change to the input,output is evaluated.
     
 </details>
