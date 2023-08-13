@@ -236,7 +236,7 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ![Screenshot from 2023-08-14 01-46-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/867864e3-11fb-48c6-bde6-65160a41fa62)
 
-**Graphical Vresion of Logic realized**
+**Graphical Version of Logic realized**
 
 ```
 show
