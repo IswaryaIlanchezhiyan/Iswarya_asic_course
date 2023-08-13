@@ -91,6 +91,6 @@ Below is the screenshot showing successful launch:
     <summary>
         Introduction to iverilog design testbench
     </summary>
-    #Simulator:
+    **Simulator:**
     
 </details>
