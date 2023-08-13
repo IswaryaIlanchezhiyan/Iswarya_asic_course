@@ -1,4 +1,4 @@
-# Iswarya_asic_course
+![image](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/75d5c457-bae4-458f-b140-8cbf6a21432e)# Iswarya_asic_course
 #Day 0
 <details>
 <summary>
@@ -104,7 +104,7 @@ iverilog is the simulator used for this course.
 - Simulator looks for the change in the values of input.
 * Upon change to the input,output is evaluated.
 
-**iverilog**
+**iverilog:**
 
 Icarus Verilog is a compiler that translates Verilog source code into executable programs for simulation.
 
@@ -112,14 +112,28 @@ Icarus Verilog is a compiler that translates Verilog source code into executable
 
 ![Screenshot from 2023-08-13 22-36-54](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a8b3e981-7319-49e5-8265-a0e93d06b646)
 
-**Testbench**
+**Testbench:**
 
 A conventional Verilog testbench is a code module that describes the stimulus to a logic design and checks whether the design's outputs match its specification.
 
 ![Screenshot from 2023-08-13 22-34-39](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/6d813524-1fd4-4c11-8877-aa934f363536)
+</details>
 
+<details>
+    <summary>
+        Labs using iverilog and gtkwave
+    </summary>
 
+**1.Introduction to Labs**
 
+Lab setup is made using the following link:
+
+```
+https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
+
+```
+
+![Screenshot from 2023-08-13 23-35-59](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/23b95430-d895-4fb0-b8c6-3abfba102e03)
 
 
     
