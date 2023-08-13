@@ -100,7 +100,8 @@ It is a a device that enables the operator to reproduce or represent under test 
 iverilog is the simulator used for this course.
 
 **How Simulator works**
-*Simulator looks for the change in the values of input.
-*Upon change to the input,output is evaluated.
+
++Simulator looks for the change in the values of input.
++Upon change to the input,output is evaluated.
     
 </details>
