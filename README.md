@@ -202,10 +202,39 @@ A standard cell library is a collection of well defined and appropriately charac
     
 Invoke and Synthesis using following commands:
 
+**Invoke**
+
 ```
 $ yosys
 ```
 
 ![Screenshot from 2023-08-14 01-28-49](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1193e665-0f8d-4c5c-a134-c49a29104b11)
+
+**Read the library**
+
+```
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+**Read the design**
+
+```
+read_verilog good_mux.v
+```
+**Model Synthesis**
+
+```
+synth -top good_mux
+```
+
+**Generate Netfile**
+
+```
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+```
+
+**abc** is used to convert RTL file into gate design.
+
+![Screenshot from 2023-08-14 01-46-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/867864e3-11fb-48c6-bde6-65160a41fa62)
+
 
 </details>
