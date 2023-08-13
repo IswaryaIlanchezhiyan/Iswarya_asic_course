@@ -236,5 +236,24 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ![Screenshot from 2023-08-14 01-46-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/867864e3-11fb-48c6-bde6-65160a41fa62)
 
+**Graphical Vresion of Logic realized**
+
+```
+show
+```
+
+![Screenshot from 2023-08-14 01-51-43](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a65a2f5c-e48c-4989-9edb-7ffeafc84a07)
+
+**How to write Netlist**
+
+```
+write_verilog good_mux_netlist.v
+write_verilog -noattr good_mux_netlist.v
+
+
+```
+
+
+
 
 </details>
