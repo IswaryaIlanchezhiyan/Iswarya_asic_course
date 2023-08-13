@@ -86,8 +86,11 @@ Below is the screenshot showing successful launch:
 
 </details>
 #Day 1
+
 <details>
     <summary>
         Introduction to iverilog design testbench
     </summary>
+    #Simulator:
+    
 </details>
