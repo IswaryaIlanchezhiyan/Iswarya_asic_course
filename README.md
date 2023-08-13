@@ -1,4 +1,4 @@
-![image](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/75d5c457-bae4-458f-b140-8cbf6a21432e)# Iswarya_asic_course
+# Iswarya_asic_course
 #Day 0
 <details>
 <summary>
@@ -135,6 +135,31 @@ https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 
 
 ![Screenshot from 2023-08-13 23-35-59](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/64edcb4b-85fb-48a6-939a-d833b750d707)
+
+**2.Introduction to iverilog gtkwave**
+
+A 2×1 multiplexer is used as an example for explaining how iverilog and gtkwave works.It initially creates a a.out file which eventually opened a dumpfile(tb_good_mux.vcd) for producing output.
+
+The following commands are used for producing output:
+
+```
+$ iverilog  good_mux.v  tb_good_mux.v
+$ ./a.out
+$ gtkwave tb_good_mux.vcd
+
+```
+
+![Screenshot from 2023-08-13 23-52-48](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/55419881-5dd1-482f-bac5-f0b9e6701245)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-13 23-54-09](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/34fc7a17-2c4b-4aca-b529-370bfa6dad81)
+
+
+
+
+
+
 
     
 </details>
