@@ -193,15 +193,18 @@ A standard cell library is a collection of well defined and appropriately charac
 **Verify the synthesis**
 
 ![Screenshot from 2023-08-14 00-18-11](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b8e8725b-8ffe-4ae2-a8ee-e4374e2e5856)
+</details>
 
-
-
-
-
-
-
-
-
-
+<details>
+    <summary>
+        Labs using Yosys and Sky130 PDKs
+    </summary>
     
+Invoke and Synthesis using following commands:
+
+```
+$ yosys
+```
+![Screenshot from 2023-08-14 01-28-49](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1193e665-0f8d-4c5c-a134-c49a29104b11)
+
 </details>
