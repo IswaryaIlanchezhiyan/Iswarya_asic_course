@@ -160,13 +160,25 @@ $ gtkwave tb_good_mux.vcd
         Introduction to Yosys and Logic Synthesis
     </summary>
     
-**1.Introduction to Yosys**
+**Introduction to Yosys**
+
+**Logic Synthesis**
+RTL to gate level translation is called as synthesis.The design is converted into gates and connections are made between gates.This is given as a file called netlist.
+
 
 **Synthesizer:**
 
-Synthesis in VLSI is the process of converting your code (program) into a circuit. In terms of logic gates, synthesis is the process of translating an abstract design into a properly implemented chip. Hardware Description Languages (HDLs) are specific programming languages that are used to explain the hardware of a circuit.
 Synthesizer is the tool used for synthesis.
+Synthesis in VLSI is the process of converting your code (program) into a circuit. In terms of logic gates, synthesis is the process of translating an abstract design into a properly implemented chip. Hardware Description Languages (HDLs) are specific programming languages that are used to explain the hardware of a circuit.
 Yosys is used as synthesizer in this course.
+
+
+**Netlist:**
+
+Netlist is also a description of a design written using a HDL code when it is written in an RTL style.The netlist is then supposed to perform the same function as the corresponding HDL code. The netlist out of the synthesis tool is fed into layout tools to produce the layout of the chip.
+
+**RTL Design**
+RTL (register-transfer level) design is a hardware design methodology that describes the behavior of digital circuits in terms of the flow of data between registers, and the operations that are performed on that data as it moves through the circuit.
 
 **Yosys Setup**
 
@@ -176,9 +188,7 @@ Yosys is used as synthesizer in this course.
 
 ![Screenshot from 2023-08-14 00-18-11](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b8e8725b-8ffe-4ae2-a8ee-e4374e2e5856)
 
-**Netlist:**
 
-Netlist is also a description of a design written using a HDL code when it is written in an RTL style.The netlist is then supposed to perform the same function as the corresponding HDL code. The netlist out of the synthesis tool is fed into layout tools to produce the layout of the chip.
 
 
 
