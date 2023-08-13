@@ -163,6 +163,7 @@ $ gtkwave tb_good_mux.vcd
 **Introduction to Yosys**
 
 **Logic Synthesis**
+
 RTL to gate level translation is called as synthesis.The design is converted into gates and connections are made between gates.This is given as a file called netlist.
 
 
@@ -187,6 +188,13 @@ RTL (register-transfer level) design is a hardware design methodology that descr
 **Verify the synthesis**
 
 ![Screenshot from 2023-08-14 00-18-11](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b8e8725b-8ffe-4ae2-a8ee-e4374e2e5856)
+
+**.lib**
+
+A standard cell library is a collection of well defined and appropriately characterized logic gates that can be used to implement a digital design.The library files contain different flavours of standard gate which maybe like 2 input or 3 input gate with slower or medium or faster version of it.
+
+
+
 
 
 
