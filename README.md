@@ -93,6 +93,6 @@ Below is the screenshot showing successful launch:
     </summary>
 
     
-    **Simulator**
+**Simulator**
     
 </details>
