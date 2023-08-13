@@ -168,6 +168,18 @@ Synthesis in VLSI is the process of converting your code (program) into a circui
 Synthesizer is the tool used for synthesis.
 Yosys is used as synthesizer in this course.
 
+**Yosys Setup**
+
+![Screenshot from 2023-08-14 00-16-36](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/0bb3b3fa-6654-40da-b7d3-41c37ca9cc34)
+
+**Verify the synthesis**
+
+![Screenshot from 2023-08-14 00-18-11](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b8e8725b-8ffe-4ae2-a8ee-e4374e2e5856)
+
+**Netlist:**
+
+Netlist is also a description of a design written using a HDL code when it is written in an RTL style.The netlist is then supposed to perform the same function as the corresponding HDL code. The netlist out of the synthesis tool is fed into layout tools to produce the layout of the chip.
+
 
     
 </details>
