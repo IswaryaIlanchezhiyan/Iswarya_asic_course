@@ -181,6 +181,11 @@ Netlist is also a description of a design written using a HDL code when it is wr
 **RTL Design**
 RTL (register-transfer level) design is a hardware design methodology that describes the behavior of digital circuits in terms of the flow of data between registers, and the operations that are performed on that data as it moves through the circuit.
 
+**.lib**
+
+A standard cell library is a collection of well defined and appropriately characterized logic gates that can be used to implement a digital design.The library files contain different flavours of standard gate which maybe like 2 input or 3 input gate with slower or medium or faster version of it.
+
+
 **Yosys Setup**
 
 ![Screenshot from 2023-08-14 00-16-36](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/0bb3b3fa-6654-40da-b7d3-41c37ca9cc34)
@@ -189,9 +194,7 @@ RTL (register-transfer level) design is a hardware design methodology that descr
 
 ![Screenshot from 2023-08-14 00-18-11](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b8e8725b-8ffe-4ae2-a8ee-e4374e2e5856)
 
-**.lib**
 
-A standard cell library is a collection of well defined and appropriately characterized logic gates that can be used to implement a digital design.The library files contain different flavours of standard gate which maybe like 2 input or 3 input gate with slower or medium or faster version of it.
 
 
 
