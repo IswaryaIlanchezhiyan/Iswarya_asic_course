@@ -85,3 +85,9 @@ Below is the screenshot showing successful launch:
 ![Screenshot from 2023-07-31 21-41-31](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/52180ab8-a498-4974-8ab7-03ef29a9c3b4)
 
 </details>
+#Day 1
+<details>
+    <summary>
+        Introduction to iverilog design testbench
+    </summary>
+</details>
