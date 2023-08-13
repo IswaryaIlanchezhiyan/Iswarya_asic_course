@@ -154,11 +154,19 @@ $ gtkwave tb_good_mux.vcd
 **Output Waveform**
 
 ![Screenshot from 2023-08-13 23-54-09](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/34fc7a17-2c4b-4aca-b529-370bfa6dad81)
+</details>
+<details>
+    <summary>
+        Introduction to Yosys and Logic Synthesis
+    </summary>
+    
+**1.Introduction to Yosys**
 
+**Synthesizer:**
 
-
-
-
+Synthesis in VLSI is the process of converting your code (program) into a circuit. In terms of logic gates, synthesis is the process of translating an abstract design into a properly implemented chip. Hardware Description Languages (HDLs) are specific programming languages that are used to explain the hardware of a circuit.
+Synthesizer is the tool used for synthesis.
+Yosys is used as synthesizer in this course.
 
 
     
