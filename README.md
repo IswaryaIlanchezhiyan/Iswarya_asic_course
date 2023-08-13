@@ -103,5 +103,16 @@ iverilog is the simulator used for this course.
 
 - Simulator looks for the change in the values of input.
 * Upon change to the input,output is evaluated.
+
+**iverilog**
+
+Icarus Verilog is a compiler that translates Verilog source code into executable programs for simulation.
+
+**iverilog based simulation flow**
+
+![Screenshot from 2023-08-13 22-36-54](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a8b3e981-7319-49e5-8265-a0e93d06b646)
+
+
+
     
 </details>
