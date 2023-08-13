@@ -133,8 +133,8 @@ https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 
 ```
 
-![Screenshot from 2023-08-13 23-35-59](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/23b95430-d895-4fb0-b8c6-3abfba102e03)
 
+![Screenshot from 2023-08-13 23-35-59](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/64edcb4b-85fb-48a6-939a-d833b750d707)
 
     
 </details>
