@@ -181,5 +181,6 @@ Yosys is used as synthesizer in this course.
 Netlist is also a description of a design written using a HDL code when it is written in an RTL style.The netlist is then supposed to perform the same function as the corresponding HDL code. The netlist out of the synthesis tool is fed into layout tools to produce the layout of the chip.
 
 
+
     
 </details>
