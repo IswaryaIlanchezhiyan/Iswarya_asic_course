@@ -505,7 +505,7 @@ show multiple_module_opt2
         Sequential Logic Optimization
     </summary>
 
-**dff_const1.v**
+**dff_const1**
 
 ![Screenshot from 2023-08-15 01-29-12](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4ca2441b-b972-484c-97b4-7abbb7d32fc8)
 
@@ -529,7 +529,31 @@ show
 
 ![Screenshot from 2023-08-15 01-35-56](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/c931c718-b9fc-48b6-9c77-9ee3165975a0)
 
+**dff_const3**
 
+```
+$ iverilog dff_const3.v tb_dff_const3.v
+$ ./a.out
+$ gtkwave tb_dff_const3.vcd
+```
 
+**Output Waveform**
 
+![Screenshot from 2023-08-15 01-48-03](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a62efb51-e8ff-4090-b420-f8621e9b66be)
+
+**Invoke Yosys**
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog dff_const3.v
+synth -top dff_const3
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show 
+```
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 01-49-25](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4eb16daa-5819-4425-9ffb-e7397f3827f3)
 </details>
