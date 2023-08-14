@@ -253,6 +253,7 @@ write_verilog -noattr good_mux_netlist.v
 
 ```
 </details>
+
 #Day 2
 <details>
     <summary>
@@ -301,6 +302,19 @@ A hierarchical design approach divides the ASIC into smaller and simpler modules
 + introducing more overhead and latency
 + potentially limiting optimization and performance
 
+Commands used for Hierarchial Synthesis:
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog multiple_modules.v
+synth -top multiple_modules
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show multiple_modules
+write_verilog -noattr multiple_modules_hier.v
+!gvim multiple_modules_hier.v
+```
+
 **Flat Synthesis**
 
 A flat design approach treats the ASIC as a single, monolithic entity, without any submodules or levels of hierarchy, and uses basic components like gates, transistors, and wires. 
@@ -318,6 +332,16 @@ A flat design approach treats the ASIC as a single, monolithic entity, without a
 + hinders parallelism and teamwork
 + can compromise quality and reliability
 + the design is harder to verify and test as a whole
+
+Commands used for Flat Synthesis:
+
+```
+$ yosys
+flatten
+write_verilog -noattr multiple_modules_flat.v
+!gvim multiple_modules_flat.v
+show multiple_modules_flat
+```
 
 
 
