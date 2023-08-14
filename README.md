@@ -1,4 +1,4 @@
-# Iswarya_asic_course
+![image](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/16affef3-022b-4aef-b2ef-db3086319d7f)# Iswarya_asic_course
 #Day 0
 <details>
 <summary>
@@ -260,5 +260,25 @@ write_verilog -noattr good_mux_netlist.v
         Timing labs,hierarchial vs flat synthesis and efficient flop coding styles
     </summary>
     
+    
 **Introduction to dot lib**
+
+The following command is used to open .lib file in gvim:
+
+```
+$ gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80
+```
+
+![Screenshot from 2023-08-14 10-59-50](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/7e7cddf1-817c-46fd-b82a-045bb4a68248)
+
+The .lib files contains main element called **PVT**
+
+**PVT:**
+
+PVT in VLSI stands for Process, Voltage, and Temperature. Integrated circuits are designed in such a way so that they can function in a wide variety of temperatures and voltages, rather than a single temperature and voltage.
+
+-PVT determines how my silicon is going to work under different conditions.
+
+The .lib files also contains the details of standard cells which has the information of what are the gates used and its power values and its area.If the area of the gate is larger it means wider transistor is used which refers to more power consumption.
+
 </details>
