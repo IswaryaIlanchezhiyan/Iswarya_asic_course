@@ -408,3 +408,10 @@ $ gtkwave tb_dff_syncres.vcd
 ![Screenshot from 2023-08-14 23-12-46](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/38830b5f-4ba4-4741-b375-6059a299655d)
 
 </details>
+
+#Day 3
+<details>
+    <summary>
+        Introduction to Optimizations
+    </summary>
+</details>
