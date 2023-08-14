@@ -342,7 +342,19 @@ write_verilog -noattr multiple_modules_flat.v
 !gvim multiple_modules_flat.v
 show multiple_modules_flat
 ```
+</details>
+<details>
+    <summary>
+        Flop coding styles and optimization
+    </summary>
 
+Flop is a circuit that maintains a state until directed by input to change the state.
 
+**Why flops**
+Combinational circuits have glitches due to propagation delay.If there are multiple combinational circuits in a design ,the output of the design have more glitches in it.To avoid glitches,we are introducing flops inbetween combinational circuits .Flops have clock cycles to work which helps in restricting glitches from the input for providing satble output.
+
+If the initial state of the flop is unknown ,the combinational circuit will evaluate into garbage value.So initializing the flop is an important thing.
+
+The control pins in the flop known as Reset/Set is used to initialize the flop.Reset/Set can be synchronous or asynchronous.
 
 </details>
