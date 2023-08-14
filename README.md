@@ -6,7 +6,7 @@
   </summary>
 
     
-  I installed Yosys using the following commands:
+  I installed Yosys using the following commands: 
     
 ```
     
