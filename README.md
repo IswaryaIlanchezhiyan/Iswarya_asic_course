@@ -263,6 +263,7 @@ write_verilog -noattr good_mux_netlist.v
 
 The following command is used to open .lib file in gvim:
 
+
 ```
 $ gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80
 ```
