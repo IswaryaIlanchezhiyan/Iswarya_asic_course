@@ -357,4 +357,47 @@ If the initial state of the flop is unknown ,the combinational circuit will eval
 
 The control pins in the flop known as Reset/Set is used to initialize the flop.Reset/Set can be synchronous or asynchronous.
 
+**Lab flop synthesis simulations**
+1.Using Asynchronous Reset
+
+Commands used:
+
+```
+$ iverilog dff_asyncres.v tb_dff_asyncres.v
+$ ./a.out
+$ gtkwave tb_dff_asyncres.vcd 
+```
+
+![Screenshot from 2023-08-14 14-56-09](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/8f1b3c5b-90e5-4d76-8394-f30e3ac50c35)
+
+2.Using Asynchronous set
+
+
+Commands used:
+
+```
+$ iverilog  dff_async_set.v tb_dff_async_set.v
+$ ./a.out
+$ gtkwave tb_dff_async_set.vcd
+```
+
+![Screenshot from 2023-08-14 15-01-42](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a02ef81f-8a62-4e3b-a470-67a6360eecb4)
+
+3.Using Synchronous Reset
+
+Commands used:
+
+```
+$ iverilog dff_syncres.v tb_dff_syncres.v
+$ ./a.out
+$ gtkwave tb_dff_syncres.vcd
+```
+
+![Screenshot from 2023-08-14 15-08-22](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/bb581545-b984-4c5f-a606-9f9cf12a12a3)
+
+
+
+
+
+
 </details>
