@@ -23,7 +23,7 @@ $ sudo make install
 
 ```
 
-Below is the screenshot showing successful installation:
+Below is the screenshot showing successful installation: 
 
 
 ![Screenshot from 2023-07-31 10-15-12](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/67cfade5-3e17-4374-89ff-93c64bce279f)
