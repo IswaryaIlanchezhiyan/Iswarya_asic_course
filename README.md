@@ -419,37 +419,37 @@ $ gtkwave tb_dff_syncres.vcd
 
 It is a process of finding an equivalent representation of the specified logic circuit under one or more specified constraints. This process is a part of a logic synthesis.
 
-There are two types of logic optimisation
+There are two types of logic optimization
 
-1.Combinational logic optimisation
+1.Combinational logic optimization
 
-2.Sequential logic optimisation
+2.Sequential logic optimization
 
-**Combinational Logic Optimisation**
+**Combinational Logic Optimization**
 
 - It is mainly for squeezing the logic into most optimized design in terms of area and power savings.
  
-- It uses two techniques for optimisation.
+- It uses two techniques for optimization.
 
-    1.Constant Propagation(Direct Optimisation)
+    1.Constant Propagation(Direct Optimization)
   
-    2.Boolean Logic Optimisation
+    2.Boolean Logic Optimization
 
 **Constant Propagation**
 
 Boolean minimization may lead to dissolution of certain section of code into constants. Such constants should be propagated at this stage in order to reduce gate count and area.
 
-**Boolean Logic Optimisation**
+**Boolean Logic Optimization**
 
 The optimization of a complex boolean expression is a process of finding a simpler one, which would upon evaluation ultimately produce the same results as the original one.
 
-**Sequential Logic Optimisation**
+**Sequential Logic Optimization**
 
 Precomputation is a recently proposed logic optimization technique which selectively disables
 the inputs of a sequential logic circuit, thereby reducing switching activity and power dissipation,
 without changing logic functionality.
 
-There are two techniques for optimisation.
+There are two techniques used for optimisation.
 
 1.Basic 
 
@@ -460,8 +460,27 @@ There are two techniques for optimisation.
 - State Optimisation
 - Retiming 
 - Sequential Logic Cloning
+</details>
 
+<details>
+    <summary>
+        Combinational Logic Optimizations
+    </summary>
+    
+**opt_check2**
 
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog opt_check2.v
+synth -top opt_check2
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show 
+```
 
-  
+**Synthesized Waveform**
+
+![Screenshot from 2023-08-15 01-07-03](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/dc42f2e9-7caa-491b-935a-0fcfb0f3517b)
+
 </details>
