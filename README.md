@@ -259,7 +259,6 @@ write_verilog -noattr good_mux_netlist.v
         Timing labs,hierarchial vs flat synthesis and efficient flop coding styles
     </summary>
     
-    
 **Introduction to dot lib**
 
 The following command is used to open .lib file in gvim:
