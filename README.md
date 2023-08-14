@@ -1,4 +1,4 @@
-![image](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/16affef3-022b-4aef-b2ef-db3086319d7f)# Iswarya_asic_course
+# Iswarya_asic_course
 #Day 0
 <details>
 <summary>
