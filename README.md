@@ -414,4 +414,33 @@ $ gtkwave tb_dff_syncres.vcd
     <summary>
         Introduction to Optimizations
     </summary>
+
+**Logic optimization** 
+
+It is a process of finding an equivalent representation of the specified logic circuit under one or more specified constraints. This process is a part of a logic synthesis.
+
+There are two types of logic optimisation
+
+1.Combinational logic optimisation
+
+2.Sequential logic optimisation
+
+**Combinational Logic Optimisation**
+
+- It is mainly for squeezing the logic into most optimized design in terms of area and power savings.
+ 
+- It uses two techniques for optimisation.
+
+    1.Constant Propagation(Direct Optimisation)
+  
+    2.Boolean Logic Optimisation
+
+**Constant Propagation**
+
+Boolean minimization may lead to dissolution of certain section of code into constants. Such constants should be propagated at this stage in order to reduce gate count and area.
+
+**Boolean Logic Optimisation**
+
+The optimization of a complex boolean expression is a process of finding a simpler one, which would upon evaluation ultimately produce the same results as the original one.
+  
 </details>
