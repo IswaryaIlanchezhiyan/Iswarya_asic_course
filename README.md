@@ -557,3 +557,48 @@ show
 
 ![Screenshot from 2023-08-15 01-49-25](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4eb16daa-5819-4425-9ffb-e7397f3827f3)
 </details>
+<details>
+    <summary>
+        Sequential optimizations for unused outputs
+    </summary>
+
+**Verilog code for counter**
+
+![Screenshot from 2023-08-15 02-02-04](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/7a752588-3ba3-4a39-aa3d-3bb7567f4d2c)
+
+**Invoke Yosys**
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog counter_opt.v
+synth -top counter_opt
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show 
+```
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 02-02-52](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/cdb60b7d-945a-4055-a837-09e2a5d6ad57)
+
+**Modified verilog code for counter**
+
+![Screenshot from 2023-08-15 02-29-29](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a60614b2-f197-4e6d-88f2-c600f84aa066)
+
+**Invoke Yosys**
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog counter_opt2.v
+synth -top counter_opt
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show 
+```
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 02-27-37](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/35f06226-8440-4ec5-941b-04381f689123)
+</details>
