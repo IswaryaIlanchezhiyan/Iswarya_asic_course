@@ -499,3 +499,37 @@ show multiple_module_opt2
 
 ![Screenshot from 2023-08-15 01-19-15](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/dc19e3bb-02c5-4460-8cfb-8806d7b3c3cb)
 </details>
+
+<details>
+    <summary>
+        Sequential Logic Optimization
+    </summary>
+
+**dff_const1.v**
+
+![Screenshot from 2023-08-15 01-29-12](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4ca2441b-b972-484c-97b4-7abbb7d32fc8)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 01-30-36](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2bcd75d2-ca76-4087-ad09-75df97225d92)
+
+**Invoke Yosys**
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog dff_const1.v
+synth -top dff_const1
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show 
+```
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 01-35-56](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/c931c718-b9fc-48b6-9c77-9ee3165975a0)
+
+
+
+
+</details>
