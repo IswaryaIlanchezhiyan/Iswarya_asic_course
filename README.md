@@ -256,10 +256,8 @@ write_verilog -noattr good_mux_netlist.v
 #Day 2
 <details>
     <summary>
-        Timing labs,hierarchial vs flat synthesis and efficient flop coding styles
+        Introduction to Timing Labs
     </summary>
-    
-**Introduction to dot lib**
 
 The following command is used to open .lib file in gvim:
 
@@ -279,5 +277,48 @@ PVT in VLSI stands for Process, Voltage, and Temperature. Integrated circuits ar
 -PVT determines how my silicon is going to work under different conditions.
 
 The .lib files also contains the details of standard cells which has the information of what are the gates used and its power values and its area.If the area of the gate is larger it means wider transistor is used which refers to more power consumption.
+
+</details>
+<details>
+    <summary>
+        Hierarchial vs Flat Synthesis
+    </summary>
+
+**Hierarchial Synthesis**
+
+A hierarchical design approach divides the ASIC into smaller and simpler modules or blocks, each with its own functionality and interface, and then connects them by a top-level structure that defines the overall behavior and performance of the ASIC.
+
+**Advantages:**
+
++ This approach has several advantages, such as better modularity, reusability, and scalability of the design
++ reduced complexity and size of the design
++ facilitation of parallelism and teamwork
++ improved quality and reliability of the design
+
+**Disadvantages:**
+
++ requiring more planning and coordination
++ introducing more overhead and latency
++ potentially limiting optimization and performance
+
+**Flat Synthesis**
+
+A flat design approach treats the ASIC as a single, monolithic entity, without any submodules or levels of hierarchy, and uses basic components like gates, transistors, and wires. 
+
+**Advantages:**
+
++ more flexibility and creativity for the designer to explore solutions and alternatives without restrictions
++ more optimization and performance
++ reducing overhead and latency
+
+
+**Disadvantages:**
+
++ increases complexity and size of the design,
++ hinders parallelism and teamwork
++ can compromise quality and reliability
++ the design is harder to verify and test as a whole
+
+
 
 </details>
