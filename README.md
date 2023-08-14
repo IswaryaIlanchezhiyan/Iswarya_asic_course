@@ -467,7 +467,7 @@ There are two techniques used for optimisation.
         Combinational Logic Optimizations
     </summary>
     
-** Commands for opt_check2.v**
+Commands used for opt_check2.v
 
 ```
 $ yosys
@@ -483,4 +483,19 @@ show
 
 ![Screenshot from 2023-08-15 01-07-03](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/dc42f2e9-7caa-491b-935a-0fcfb0f3517b)
 
+Commands used for multiple_module_opt2.v
+
+```
+$ yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog multiple_module_opt2.v
+synth -top multiple_module_opt2
+opt_clean -purge
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show multiple_module_opt2
+```
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 01-19-15](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/dc19e3bb-02c5-4460-8cfb-8806d7b3c3cb)
 </details>
