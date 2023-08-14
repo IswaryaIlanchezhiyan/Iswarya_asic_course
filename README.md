@@ -458,7 +458,7 @@ There are two techniques for optimisation.
 2.Advanced
 
 - State Optimisation
-- Retiming
+- Retiming 
 - Sequential Logic Cloning
 
 
