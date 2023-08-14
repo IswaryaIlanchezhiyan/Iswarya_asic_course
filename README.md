@@ -403,9 +403,8 @@ $ gtkwave tb_dff_syncres.vcd
 
 ![Screenshot from 2023-08-14 15-08-22](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/bb581545-b984-4c5f-a606-9f9cf12a12a3)
 
+**Synthesis**
 
-
-
-
+![Screenshot from 2023-08-14 23-12-46](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/38830b5f-4ba4-4741-b375-6059a299655d)
 
 </details>
