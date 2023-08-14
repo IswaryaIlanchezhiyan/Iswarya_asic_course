@@ -442,5 +442,26 @@ Boolean minimization may lead to dissolution of certain section of code into con
 **Boolean Logic Optimisation**
 
 The optimization of a complex boolean expression is a process of finding a simpler one, which would upon evaluation ultimately produce the same results as the original one.
+
+**Sequential Logic Optimisation**
+
+Precomputation is a recently proposed logic optimization technique which selectively disables
+the inputs of a sequential logic circuit, thereby reducing switching activity and power dissipation,
+without changing logic functionality.
+
+There are two techniques for optimisation.
+
+1.Basic 
+
+- Sequential Constant Propagation
+
+2.Advanced
+
+- State Optimisation
+- Retiming
+- Sequential Logic Cloning
+
+
+
   
 </details>
