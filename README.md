@@ -737,6 +737,21 @@ The case statement checks if the given expression matches one among the other ex
     <summary>
         Labs on "Incomplete IF Case"
     </summary>
+
+**Code**
+
+![Screenshot from 2023-08-15 22-19-56](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/76ceca07-4488-4ab5-9342-0e1499c26802)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 22-20-53](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/aad72fce-0862-4ff3-9e83-24f530e436b7)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 22-22-13](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2f642e6a-8b97-437e-aa56-e3ef3f22a9af)
+
+
+
 </details>
 
 
