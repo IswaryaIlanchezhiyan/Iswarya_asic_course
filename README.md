@@ -622,6 +622,19 @@ The term "gate level" refers to the netlist view of a circuit, usually produced 
 
 ![Screenshot from 2023-08-15 08-04-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/d158213c-dc0b-4e4a-ba89-ad0c8e5048cc)
 
+If Gate level models are delay annotated, then we can use GLS for timing validation.
+
+**Synthesis Simulation Mismatch**
+
+Verilog coding styles that will cause a mismatch between prea nd post-synthesis simulations.
+
+Synthesis Simulation Mismatch happens due to certains reasons like,
+
+- Missing Sensitivity List
+- Blocking vs Non-Blocking Assignments
+- Non standard Verilog coding
+
+
 
 </details>
 
