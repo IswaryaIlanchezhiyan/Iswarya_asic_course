@@ -96,7 +96,7 @@ Below is the screenshot showing successful launch:
 
 </details>
 
-#Day 1
+# Day 1
 
 # Introduction to Verilog RTL design and synthesis
 <details>
@@ -266,7 +266,7 @@ write_verilog -noattr good_mux_netlist.v
 ```
 </details>
 
-#Day 2
+# Day 2
 # Timing labs,hierarchial vs flat synthesis and efficient flop coding styles
 <details>
     <summary>
@@ -422,7 +422,7 @@ $ gtkwave tb_dff_syncres.vcd
 
 </details>
 
-#Day 3
+# Day 3
 # Combinational and Sequential Optimizations
 <details>
     <summary>
@@ -617,7 +617,7 @@ show
 ![Screenshot from 2023-08-15 02-27-37](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/35f06226-8440-4ec5-941b-04381f689123)
 </details>
 
-#Day 4
+# Day 4
 # GLS,Blocking vs Non-Blocking and synthesis-simulation mismatch
 <details>
     <summary>
@@ -731,7 +731,7 @@ $ gtkwave tb_blocking_caveat.vcd
 ![Screenshot from 2023-08-15 15-42-42](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/21477b62-f2ee-4490-ad7e-b320a3038e8b)
 </details>
 
-#Day 5
+# Day 5
 # If,case,for loop and for generate
 <details>
     <summary>
