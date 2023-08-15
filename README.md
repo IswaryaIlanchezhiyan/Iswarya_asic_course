@@ -715,5 +715,28 @@ $ gtkwave tb_blocking_caveat.vcd
 
 ![Screenshot from 2023-08-15 15-42-42](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/21477b62-f2ee-4490-ad7e-b320a3038e8b)
 </details>
+#Day 5
+<details>
+    <summary>
+        IF CASE Constructs
+    </summary>
+
+**IF Statements**
+
+The 'If' statement is a conditional statement based on which decision is made whether to execute lines inside if block or not. The begin and end are required in case of multiple lines present in if block. For single-line inside if statement may not require 'begin.. end'.
+
+Danger/Caution with IF statements are Inferred Latches.
+Latches are inferred in VHDL by using the IF statement without its matching ELSE. This causes the synthesis to make the logical decision to “hold” the value of a signal when not told to do anything else with it. The inferred latch is a transparent latch.
+
+
+**CASE Statements**
+
+The case statement checks if the given expression matches one among the other expressions inside the list and branches.In Verilog, a case statement includes all of the code between the Verilog keywords, case ("casez", "casex"), and endcase.
+</details>
+<details>
+    <summary>
+        Labs on "Incomplete IF Case"
+    </summary>
+</details>
 
 
