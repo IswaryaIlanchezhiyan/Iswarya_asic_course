@@ -634,7 +634,14 @@ Synthesis Simulation Mismatch happens due to certains reasons like,
 - Blocking vs Non-Blocking Assignments
 - Non standard Verilog coding
 
+**Blocking and Non-Blocking Statements**
 
+**Blocking assignment** statements are assigned using (=) operator and are executed one after the other in a procedural block. But, it will not prevent the execution of statements that run in a parallel block.
 
+**Non-blocking assignment** statements are allowed to be scheduled without blocking the execution of the following statements and is specified by a (<=) symbol.
+
+**Note:**
+
+Always use non-blocking statements for writing sequential circuits.
 </details>
 
