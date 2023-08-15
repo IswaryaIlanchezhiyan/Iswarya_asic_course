@@ -644,4 +644,25 @@ Synthesis Simulation Mismatch happens due to certains reasons like,
 
 Always use non-blocking statements for writing sequential circuits.
 </details>
+<details>
+    <summary>
+        Lab GLS using sythesis-simulation mismatch
+    </summary>
+
+Screenshot of commands used:
+
+![Screenshot from 2023-08-15 14-19-05](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/aa2705e9-e94d-4501-9683-6f84e7aa9597)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 14-18-08](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/ca8d5107-aae3-45bf-85a0-4a74165ac392)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 14-21-53](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b895ab69-d85f-4add-93ed-4fe880058110)
+
+
+
+
+</details>
 
