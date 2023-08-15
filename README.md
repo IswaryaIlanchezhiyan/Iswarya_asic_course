@@ -661,6 +661,19 @@ Screenshot of commands used:
 
 ![Screenshot from 2023-08-15 14-21-53](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/b895ab69-d85f-4add-93ed-4fe880058110)
 
+Commands used to produce gtkwave using GLS
+
+```
+$ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v
+$ ./a.out
+$ gtkwave tb_ternary_operator_mux.vcd
+```
+
+**Output Waveform using GLS**
+
+![Screenshot from 2023-08-15 15-04-08](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/6f772d94-8405-430e-8e8a-73bea2233951)
+
+
 
 
 
