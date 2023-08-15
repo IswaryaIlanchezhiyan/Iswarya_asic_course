@@ -602,3 +602,11 @@ show
 
 ![Screenshot from 2023-08-15 02-27-37](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/35f06226-8440-4ec5-941b-04381f689123)
 </details>
+
+#Day 4
+<details>
+    <summary>
+        GLS,Synthesis-Simulation mismatch and Blocking/Non-Blocking statements
+    </summary>
+    
+</details>
