@@ -792,5 +792,38 @@ The case statement checks if the given expression matches one among the other ex
 
 ![Screenshot from 2023-08-15 22-58-46](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1357244e-5187-4e11-8b38-afaf1f4030e2)
 </details>
+<details>
+    <summary>
+        For Loop and For Geneerate
+    </summary>
+
+**For Loop**
+
+A for loop is the most widely used loop in software, but it is primarily used to replicate hardware logic in Verilog. The idea behind a for loop is to iterate a set of statements given within the loop as long as the given condition is true.
+
+**For Generate**
+
+A generate block allows to multiply module instances or perform conditional instantiation of any module. It provides the ability for the design to be built based on Verilog parameters.
+
+</details>
+<details>
+    <summary>
+        Labs for "For Loop" and "For Generate"
+    </summary>
+
+**Code for mux_generate**
+
+![Screenshot from 2023-08-15 23-08-49](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/51c9ab12-5a28-4549-8fa9-2f5275deca5b)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 23-09-58](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/98383599-9587-4566-b36c-be4f2f123198)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 23-10-48](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/fe8640b8-358f-4ca7-aecf-7a8549affbfd)
+
+
+</details>
 
 
