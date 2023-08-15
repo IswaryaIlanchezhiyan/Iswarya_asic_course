@@ -823,6 +823,25 @@ A generate block allows to multiply module instances or perform conditional inst
 
 ![Screenshot from 2023-08-15 23-10-48](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/fe8640b8-358f-4ca7-aecf-7a8549affbfd)
 
+**Code for demux_case**
+
+![Screenshot from 2023-08-15 23-14-40](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/dd08b864-6d8d-44e9-b312-b08803bbf4f3)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 23-15-35](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/63fe486d-87ea-4e71-8a50-73437cc6987c)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 23-16-34](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/cd4f7382-82da-4c05-afd4-b552022bac07)
+
+**Code for fa rca**
+
+![Screenshot from 2023-08-15 23-19-35](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/7426c3f6-2fcb-4998-a189-df7462ef4b11)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 23-22-58](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/eab9abc4-137b-45e9-b9fe-c65498917da0)
 
 </details>
 
