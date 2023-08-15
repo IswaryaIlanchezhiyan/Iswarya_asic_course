@@ -750,8 +750,23 @@ The case statement checks if the given expression matches one among the other ex
 **Synthesis**
 
 ![Screenshot from 2023-08-15 22-22-13](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2f642e6a-8b97-437e-aa56-e3ef3f22a9af)
+</details>
+<details>
+    <summary>
+        Incomplete Overlapping Case
+    </summary>
 
+**Code**
 
+![Screenshot from 2023-08-15 22-43-19](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/e8ef9814-54f6-4348-8ff2-57d538cc0aa1)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 22-45-09](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4edd256a-5a3f-4caa-8a32-4d62ae49d8d1)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 22-46-13](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1a1c80ca-942d-490e-97f1-d06e5848b110)
 
 </details>
 
