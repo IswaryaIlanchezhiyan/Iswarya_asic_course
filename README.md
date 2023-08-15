@@ -608,5 +608,20 @@ show
     <summary>
         GLS,Synthesis-Simulation mismatch and Blocking/Non-Blocking statements
     </summary>
-    
+
+**Gate Level Simulation**
+
+The term "gate level" refers to the netlist view of a circuit, usually produced by logic synthesis. So while RTL simulation is pre-synthesis, GLS is post-synthesis. The netlist view is a complete connection list consisting of gates and IP models with full functional and timing behavior.
+
+**Why GLS**
+
+- Verify the logic correctness of design after synthesis.
+- Ensuring the timing of the design is met(For this GLS needs to be run with delay annotation)
+
+**GLS using Verilog**
+
+![Screenshot from 2023-08-15 08-04-57](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/d158213c-dc0b-4e4a-ba89-ad0c8e5048cc)
+
+
 </details>
+
