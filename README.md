@@ -756,7 +756,7 @@ The case statement checks if the given expression matches one among the other ex
         Incomplete Overlapping Case
     </summary>
 
-**Code**
+**Code for incomp_case**
 
 ![Screenshot from 2023-08-15 22-43-19](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/e8ef9814-54f6-4348-8ff2-57d538cc0aa1)
 
