@@ -698,6 +698,22 @@ $ gtkwave tb_blocking_caveat.vcd
 
 ![Screenshot from 2023-08-15 15-31-54](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4f165739-46b8-4ab0-845d-3b14bee67b59)
 
+**Synthesis**
+
+![Screenshot from 2023-08-15 15-39-39](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/7df58edf-09c8-4814-be7a-c475b6fd97b8)
+
+
+Commands used to produce gtkwave using GLS
+
+```
+$ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat.v tb_blocking_caveat.v
+$ ./a.out
+$ gtkwave tb_blocking_caveat.vcd
+```
+
+**Output Waveform using GLS**
+
+![Screenshot from 2023-08-15 15-42-42](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/21477b62-f2ee-4490-ad7e-b320a3038e8b)
 </details>
 
 
