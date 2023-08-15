@@ -649,6 +649,10 @@ Always use non-blocking statements for writing sequential circuits.
         Lab GLS using sythesis-simulation mismatch
     </summary>
 
+**Code**
+
+![Screenshot from 2023-08-15 15-19-19](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/817feb67-dfba-4447-8916-f0a3ae87c74c)
+
 **Screenshot of commands used:**
 
 ![Screenshot from 2023-08-15 14-19-05](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/aa2705e9-e94d-4501-9683-6f84e7aa9597)
