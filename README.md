@@ -768,6 +768,29 @@ The case statement checks if the given expression matches one among the other ex
 
 ![Screenshot from 2023-08-15 22-46-13](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1a1c80ca-942d-490e-97f1-d06e5848b110)
 
+**Code for comp_case**
+
+![Screenshot from 2023-08-15 22-50-31](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/75adf9c0-767b-40fa-a79f-cfc38a037837)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 22-52-23](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a5318bb6-32da-4ef4-873e-69f82bf421be)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 22-53-22](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/e922e77a-3c54-4973-85a6-5602fc70aef9)
+
+**Code for bad_case**
+
+![Screenshot from 2023-08-15 22-57-22](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2b24cd14-b7fd-4953-a973-d7e626f14ef6)
+
+**Output Waveform**
+
+![Screenshot from 2023-08-15 22-58-09](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/a4c42a67-6489-4e8f-b77d-19454961683b)
+
+**Synthesis**
+
+![Screenshot from 2023-08-15 22-58-46](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/1357244e-5187-4e11-8b38-afaf1f4030e2)
 </details>
 
 
