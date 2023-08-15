@@ -1,5 +1,15 @@
 # Iswarya_asic_course
-#Day 0
+# Table of Contents
+ - [1 Tools Installation](#Tools-Installation)<br>
+ - [2 Introduction to Verilog RTL design and synthesis](#Introduction-to-Verilog-RTL-design-and-synthesis)<br>
+ - [3 Timing labs,hierarchial vs flat synthesis and efficient flop coding styles](#Timing-labs,hierarchial-vs-flat-synthesis-and-efficient-flop-coding-styles)<br>
+ - [4 Combinational and Sequential Optimizations](#Combinational-and-Sequential-Optimizations)<br>
+ - [5 GLS,Blocking vs Non-Blocking and synthesis-simulation mismatch](#GLS,Blocking-vs-Non-Blocking-and-synthesis-simulation-mismatch)<br>
+ - [6 If,case,for loop and for generate](#If,case,for-loop-and-for-generate)<br>
+  
+# Day 0
+
+# Tools Installation
 <details>
 <summary>
     Yosys
@@ -87,6 +97,8 @@ Below is the screenshot showing successful launch:
 </details>
 
 #Day 1
+
+# Introduction to Verilog RTL design and synthesis
 <details>
     <summary>
         Introduction to iverilog design testbench
@@ -255,6 +267,7 @@ write_verilog -noattr good_mux_netlist.v
 </details>
 
 #Day 2
+# Timing labs,hierarchial vs flat synthesis and efficient flop coding styles
 <details>
     <summary>
         Introduction to Timing Labs
@@ -410,6 +423,7 @@ $ gtkwave tb_dff_syncres.vcd
 </details>
 
 #Day 3
+# Combinational and Sequential Optimizations
 <details>
     <summary>
         Introduction to Optimizations
@@ -604,6 +618,7 @@ show
 </details>
 
 #Day 4
+# GLS,Blocking vs Non-Blocking and synthesis-simulation mismatch
 <details>
     <summary>
         GLS,Synthesis-Simulation mismatch and Blocking/Non-Blocking statements
@@ -717,6 +732,7 @@ $ gtkwave tb_blocking_caveat.vcd
 </details>
 
 #Day 5
+# If,case,for loop and for generate
 <details>
     <summary>
         IF CASE Constructs
