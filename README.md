@@ -646,7 +646,7 @@ Always use non-blocking statements for writing sequential circuits.
 </details>
 <details>
     <summary>
-        Lab GLS using sythesis-simulation mismatch
+        Labs on GLS using sythesis-simulation mismatch
     </summary>
 
 **Code**
@@ -676,10 +676,28 @@ $ gtkwave tb_ternary_operator_mux.vcd
 **Output Waveform using GLS**
 
 ![Screenshot from 2023-08-15 15-04-08](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/6f772d94-8405-430e-8e8a-73bea2233951)
+</details>
+<details>
+    <summary>
+        Labs on synthesis-simulation mismatch using blocking statement
+    </summary>
+    
+**Code**
 
+![Screenshot from 2023-08-15 15-28-38](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/c6f9c5c9-b387-406f-991f-98455d8886b1)
 
+Commands:
 
+```
+$ iverilog blocking_caveat.v tb_blocking_caveat.v
+$ ./a.out
+$ gtkwave tb_blocking_caveat.vcd
+```
 
+**Output Waveform**
+
+![Screenshot from 2023-08-15 15-31-54](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4f165739-46b8-4ab0-845d-3b14bee67b59)
 
 </details>
+
 
