@@ -1,11 +1,11 @@
 # Iswarya_asic_course
 # Table of Contents
- - [1 Tools Installation](#Tools-Installation)<br>
- - [2 Introduction to Verilog RTL design and synthesis](#Introduction-to-Verilog-RTL-design-and-synthesis)<br>
- - [3 Timing labs,hierarchial vs flat synthesis and efficient flop coding styles](#Timing-labs,hierarchial-vs-flat-synthesis-and-efficient-flop-coding-styles)<br>
- - [4 Combinational and Sequential Optimizations](#Combinational-and-Sequential-Optimizations)<br>
- - [5 GLS,Blocking vs Non-Blocking and synthesis-simulation mismatch](#GLS,Blocking-vs-Non-Blocking-and-synthesis-simulation-mismatch)<br>
- - [6 If,case,for loop and for generate](#If,case,for-loop-and-for-generate)<br>
+ - [Day0 Tools Installation](#Tools-Installation)<br>
+ - [Day1 Introduction to Verilog RTL design and synthesis](#Introduction-to-Verilog-RTL-design-and-synthesis)<br>
+ - [Day2 Timing labs,hierarchial vs flat synthesis and efficient flop coding styles](#Timing-labs,hierarchial-vs-flat-synthesis-and-efficient-flop-coding-styles)<br>
+ - [Day3 Combinational and Sequential Optimizations](#Combinational-and-Sequential-Optimizations)<br>
+ - [Day4 GLS,Blocking vs Non-Blocking and synthesis-simulation mismatch](#GLS,Blocking-vs-Non-Blocking-and-synthesis-simulation-mismatch)<br>
+ - [Day5 If,case,for loop and for generate](#If,case,for-loop-and-for-generate)<br>
   
 # Day 0
 
