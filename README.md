@@ -184,9 +184,52 @@ Below is the screenshot showing successful launch:
 
 ![magic](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4de90634-e24c-45b9-9c1e-0918c4e7d9a3)
 
+</details>
 
+<details>
+ <summary>
+   OpenLANE
+ </summary>
 
+ Docker Installation:
 
+ ```
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt install -y build-essential python3 python3-venv python3-pip make git
+
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+$ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+$ sudo apt update
+$ sudo apt install docker-ce docker-ce-cli containerd.io
+$ sudo docker run hello-world
+
+$ sudo groupadd docker
+$ sudo usermod -aG docker $iswarya
+$ sudo reboot 
+
+# Check for installation
+$ sudo docker run hello-world
+
+```
+
+Below is the screenshot showing successful launch:
+
+![docker](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/710d02e2-0ac9-4ff4-8cf0-f56d05b32eb5)
+
+Install OPenLANE,PDKs and Tools
+
+```
+
+git clone https://github.com/The-OpenROAD-Project/OpenLane
+cd OpenLane
+make
+make test
+
+```
 </details>
 
 # Day 1
