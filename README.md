@@ -81,8 +81,8 @@ Below is the screenshot showing successful launch:
 
 ```
 
-sudo apt update
-sudo apt install gtkwave
+$ sudo apt update
+$ sudo apt install gtkwave
 
 ```
 
@@ -108,16 +108,16 @@ Below is the screenshot showing successful launch:
 
  ```
 
-sudo apt-get install build-essential
-sudo apt-get install libxaw7-dev
+$ sudo apt-get install build-essential
+$ sudo apt-get install libxaw7-dev
 
-tar -zxvf ngspice-40.tar.gz
-cd ngspice-40
-mkdir release
-cd release
-../configure  --with-x --with-readline=yes --disable-debug
-make
-sudo make install
+$ tar -zxvf ngspice-41.tar.gz
+$ cd ngspice-41
+$ mkdir release
+$ cd release
+$ ../configure  --with-x --with-readline=yes --disable-debug
+$ make
+$ sudo make install
 
 ```
 
@@ -136,21 +136,55 @@ Below is the screenshot showing successful launch:
 
  ```
 
-sudo apt-get install cmake clang gcc tcl swig bison flex
+$ sudo apt-get install cmake clang gcc tcl swig bison flex
 
-git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
-cd OpenSTA
-mkdir build
-cd build
-cmake ..
-make
-sudo make install
+$ git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+$ cd OpenSTA
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ sudo make install
 
 ```
 
 Below is the screenshot showing successful launch: 
 
 ![OpenSTA](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2f4e41da-513c-47fa-bc34-d1b919020936)
+
+
+</details>
+
+<details>
+ <summary>
+   Magic
+ </summary>
+
+ Installation Commands:
+
+ ```
+
+$ sudo apt-get install m4
+$ sudo apt-get install tcsh
+$ sudo apt-get install csh
+$ sudo apt-get install libx11-dev
+$ sudo apt-get install tcl-dev tk-dev
+$ sudo apt-get install libcairo2-dev
+$ sudo apt-get install mesa-common-dev libglu1-mesa-dev
+$ sudo apt-get install libncurses-dev
+$ git clone https://github.com/RTimothyEdwards/magic
+$ cd magic
+$ ./configure
+$ make
+$ sudo make install
+
+```
+
+Below is the screenshot showing successful launch: 
+
+![magic](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/4de90634-e24c-45b9-9c1e-0918c4e7d9a3)
+
+
 
 
 </details>
