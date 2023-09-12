@@ -220,7 +220,7 @@ Below is the screenshot showing successful launch:
 
 ![docker](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/710d02e2-0ac9-4ff4-8cf0-f56d05b32eb5)
 
-Install OPenLANE,PDKs and Tools
+Install OpenLANE,PDKs and Tools
 
 ```
 
