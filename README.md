@@ -97,6 +97,34 @@ Below is the screenshot showing successful launch:
 
 </details>
 
+<details>
+ <summary>
+   Ngspice
+ </summary>
+ 
+ **Source File** - https://sourceforge.net/projects/ngspice/files/
+
+ Installation Commands:
+
+ ```
+
+sudo apt-get install build-essential
+sudo apt-get install libxaw7-dev
+
+tar -zxvf ngspice-40.tar.gz
+cd ngspice-40
+mkdir release
+cd release
+../configure  --with-x --with-readline=yes --disable-debug
+make
+sudo make install
+
+```
+
+![ngspice](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/567096d8-8469-47c8-8a27-1761424ecb0e)
+
+</details>
+
 # Day 1
 
 # Introduction to Verilog RTL design and synthesis
