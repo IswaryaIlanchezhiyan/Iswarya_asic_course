@@ -121,7 +121,37 @@ sudo make install
 
 ```
 
+Below is the screenshot showing successful launch: 
+
 ![ngspice](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/567096d8-8469-47c8-8a27-1761424ecb0e)
+
+</details>
+
+<details>
+ <summary>
+   OpenSTA
+ </summary>
+
+ Installation commands:
+
+ ```
+
+sudo apt-get install cmake clang gcc tcl swig bison flex
+
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+cd OpenSTA
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+
+```
+
+Below is the screenshot showing successful launch: 
+
+![OpenSTA](https://github.com/IswaryaIlanchezhiyan/Iswarya_asic_course/assets/140998760/2f4e41da-513c-47fa-bc34-d1b919020936)
+
 
 </details>
 
